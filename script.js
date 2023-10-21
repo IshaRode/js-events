@@ -30,34 +30,34 @@ window.onload = function () {
   const child = document.getElementById('child');
   
   child.addEventListener('click', function () {
-    console.log('child clicked');
+    console.log('Child clicked');
   });
   parent.addEventListener('click', function () {
-    console.log('parent clicked');
+    console.log('Parent clicked');
   });
   grandparent.addEventListener('click', function () {
-    console.log('grandparent clicked');
+    console.log('Grandparent clicked');
   });
   
   // Challenge 4.2 :
   grandparent.addEventListener(
     'click',
     function () {
-      console.log('grandparent clicked');
+      console.log('Grandparent clicked');
     },
     true
   );
   parent.addEventListener(
     'click',
     function () {
-      console.log('parent clicked');
+      console.log('Parent clicked');
     },
     true
   );
   child.addEventListener(
     'click',
     function () {
-      console.log('child clicked');
+      console.log('Child clicked');
     },
     true
   );
